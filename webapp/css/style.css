@@ -27,9 +27,12 @@
 
 
 .RecastApp .RecastAppExpander  {
-    position: fixed;
+    position: absolute;
     right: 92% !important;
-    bottom: 10px;
+    bottom: 50vh;
+    top: 50vh;
+	width: auto;
+	height: 3em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
